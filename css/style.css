@@ -61,3 +61,22 @@
   }
   
 }
+
+.box-3{
+  width: 400px;
+  display: inline-block;
+  margin: 10px;
+}
+
+img{
+  width: 100%;
+}
+
+.box-3 img{
+  filter: grayscale(50%);
+  transition: all 1s;
+}
+
+.box-3 img:hover{
+  filter: grayscale(0%) brightness(120%);
+}
