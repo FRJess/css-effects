@@ -78,5 +78,5 @@ img{
 }
 
 .box-3 img:hover{
-  filter: grayscale(0%) brightness(120%);
+  filter: grayscale(0) brightness(1.2);
 }
